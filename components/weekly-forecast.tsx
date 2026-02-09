@@ -12,7 +12,11 @@ interface ForecastDay {
   icon: any
 }
 
+<<<<<<< HEAD
 // const OPENWEATHER_API_KEY = 
+=======
+const OPENWEATHER_API_KEY = "e867ed2321b6e34da68a2baa4909b264"
+>>>>>>> c050e3002287454576710d37af7accceffb68dbf
 
 const getWeatherIcon = (condition: string) => {
   const lowerCondition = condition.toLowerCase()
